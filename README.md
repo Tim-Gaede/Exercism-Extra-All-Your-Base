@@ -17,15 +17,15 @@ combination of powers of **b**.
 
 The number 42, *in base 10*, means:
 
-(4 * 10^1) + (2 * 10^0)
+(4 × 10¹) + (2 × 10⁰)
 
 The number 101010, *in base 2*, means:
 
-(1 * 2^5) + (0 * 2^4) + (1 * 2^3) + (0 * 2^2) + (1 * 2^1) + (0 * 2^0)
+(1 × 2⁵) + (0 × 2⁴) + (1 × 2³) + (0 × 2²) + (1 × 2¹) + (0 × 2⁰)
 
 The number 1120, *in base 3*, means:
 
-(1 * 3^3) + (1 * 3^2) + (2 * 3^1) + (0 * 3^0)
+(1 × 3³) + (1 × 3²) + (2 × 3¹) + (0 × 3⁰)
 
 I think you got the idea!
 
@@ -47,13 +47,6 @@ throw("Meaningful message indicating the source of the error")
 ## Version compatibility
 This exercise has been tested on Julia 1.2.
 
-### Common `pytest` options
-
-- `-v` : enable verbose output
-- `-x` : stop running tests on first failure
-- `--ff` : run failures from previous test before running other test cases
-
-For other options, see `julia -m pytest -h`
 
 ## Submitting Exercises
 
@@ -67,3 +60,4 @@ please see [Running the Tests](http://exercism.io/tracks/julia/tests).
 ## Submitting Incomplete Solutions
 
 It's possible to submit an incomplete solution so you can see how others have completed the exercise.
+
